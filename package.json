@@ -1,5 +1,5 @@
 {
-  "name": "aic-forms",
+  "name": "@sammysium/aic-forms",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
@@ -13,6 +13,13 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sammysium/aic-forms"
+},
+"publishConfig": {
+  "registry": "https://npm.pkg.github.com/sammysium"
+},
   "exports": {
     ".": {
       "import": "./dist/aic-forms.es.js",
