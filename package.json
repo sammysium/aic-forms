@@ -1,6 +1,6 @@
 {
   "name": "@sammysium/aic-forms",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -23,9 +23,11 @@
   "exports": {
     ".": {
       "import": "./dist/aic-forms.es.js",
-      "require": "./dist/aic-forms.umd.js"
+      "require": "./dist/aic-forms.umd.js",
+      "types": "./dist/index.d.ts"
     },
-    "./dist/style.css": "./dist/style.css"
+    "./dist/style.css": "./dist/style.css",
+    "./dist/index.d.ts": "./dist/index.d.ts"
   },
   "main": "./dist/aic-forms.umd.js",
   "module": "./dist/aic-forms.es.js",
